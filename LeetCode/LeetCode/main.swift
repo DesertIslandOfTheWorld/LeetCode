@@ -8,7 +8,7 @@
 
 import Foundation
 
-var nums = [0,1,0,3,12]
-MoveZeroes.moveZeroes2(&nums)
+var nums = [2, 7, 11, 15]
+let indexArray = _1TowSum.twoSum(nums, target: 9)
 
-print(nums)
+print(indexArray)
