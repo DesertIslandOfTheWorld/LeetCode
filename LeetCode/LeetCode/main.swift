@@ -8,7 +8,7 @@
 
 import Foundation
 
+var nums = [0,1,0,3,12]
+MoveZeroes.moveZeroes2(&nums)
 
-let sum = MaxSubArray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
-
-print(sum)
+print(nums)
