@@ -8,10 +8,12 @@
 
 import Foundation
 
-var nums = [4,5]
+var nums = [1,3,5,6]
 
-let length = RemoveElement.removeElement(&nums, 4)
+let index = SearchInsertPosition.searchInsert(nums, 0)
 
-for i in 0..<length {
-    print(nums[i])
-}
+print(index)
+
+//for i in 0..<length {
+//    print(nums[i])
+//}
