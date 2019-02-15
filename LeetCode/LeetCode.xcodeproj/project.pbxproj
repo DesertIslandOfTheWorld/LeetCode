@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1024DFF221422D30092D5B4 /* LongestSubstringWithoutRepeatCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1024DFE221422D30092D5B4 /* LongestSubstringWithoutRepeatCharacter.swift */; };
+		C1024E012214F7B90092D5B4 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1024E002214F7B90092D5B4 /* MaxSubArray.swift */; };
+		C1024E032214FD2B0092D5B4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1024E022214FD2B0092D5B4 /* Test.swift */; };
 		C141EB1A2212A96D00EC9212 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141EB192212A96D00EC9212 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1024DFE221422D30092D5B4 /* LongestSubstringWithoutRepeatCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatCharacter.swift; sourceTree = "<group>"; };
+		C1024E002214F7B90092D5B4 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
+		C1024E022214FD2B0092D5B4 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C141EB162212A96D00EC9212 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C141EB192212A96D00EC9212 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				C141EB192212A96D00EC9212 /* main.swift */,
+				C1024E022214FD2B0092D5B4 /* Test.swift */,
+				C1024DFE221422D30092D5B4 /* LongestSubstringWithoutRepeatCharacter.swift */,
+				C1024E002214F7B90092D5B4 /* MaxSubArray.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1024E012214F7B90092D5B4 /* MaxSubArray.swift in Sources */,
+				C1024E032214FD2B0092D5B4 /* Test.swift in Sources */,
+				C1024DFF221422D30092D5B4 /* LongestSubstringWithoutRepeatCharacter.swift in Sources */,
 				C141EB1A2212A96D00EC9212 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
