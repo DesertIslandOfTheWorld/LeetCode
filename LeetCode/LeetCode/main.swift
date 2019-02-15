@@ -8,7 +8,10 @@
 
 import Foundation
 
-var nums = [2, 7, 11, 15]
-let indexArray = _1TowSum.twoSum(nums, target: 9)
+var nums = [0,0,1,1,1,2,2,3,3,4]
 
-print(indexArray)
+let length = RemoveDuplicatesfromSortedArray.removeDuplicates(&nums)
+
+for i in 0..<length {
+    print(nums[i])
+}
