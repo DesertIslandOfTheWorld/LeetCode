@@ -8,9 +8,9 @@
 
 import Foundation
 
-var nums = [0,0,1,1,1,2,2,3,3,4]
+var nums = [4,5]
 
-let length = RemoveDuplicatesfromSortedArray.removeDuplicates(&nums)
+let length = RemoveElement.removeElement(&nums, 4)
 
 for i in 0..<length {
     print(nums[i])
